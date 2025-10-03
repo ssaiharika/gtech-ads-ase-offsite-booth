@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gTech Ads ASE BINGO</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>gTech Ads ASE BINGO</h1>
+            <p>Dubai Offsite Edition!</p>
+        </header>
+        <main>
+            <div id="bingo-card" class="bingo-card" role="grid"></div>
+            <div id="winner-overlay" class="winner-overlay" aria-live="polite" aria-hidden="true">
+                <div class="winner-content">
+                    <div class="confetti"></div><div class="confetti"></div><div class="confetti"></div>
+                    <div class="confetti"></div><div class="confetti"></div><div class="confetti"></div>
+                    <div class="confetti"></div><div class="confetti"></div><div class="confetti"></div>
+                    <div class="confetti"></div><div class="confetti"></div><div class="confetti"></div>
+                    <div class="confetti"></div><div class="confetti"></div><div class="confetti"></div>
+                    <h2>BINGO!</h2>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <button id="reset-button">New Card</button>
+        </footer>
+    </div>
+    <script type="module" src="index.tsx"></script>
+</body>
+</html>
